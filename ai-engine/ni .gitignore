@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Docker
+*.tar
+
+# IDE
+.vscode/

@@ -1,0 +1,11 @@
+groups:
+- name: website-alerts
+  rules:
+
+  - alert: WebsiteDownWarning
+    expr: probe_success == 0
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Website is not responding"
